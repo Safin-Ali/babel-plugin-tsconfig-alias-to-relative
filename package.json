@@ -1,0 +1,24 @@
+{
+	"name": "ts-babel-path-alias-resolver",
+	"version": "1.0.3",
+	"description": "A utility to resolve tsconfig path aliases while babel transpile codes",
+	"main": "src/index.js",
+	"type": "commonjs",
+	"module": "index.mjs",
+	"types": "index.d.ts",
+	"readme": "README.md",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Safin-Ali/ts-babel-path-alias-resolver"
+	},
+	"keywords": [],
+	"author": "Safin Ali <safin.ali.7205@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Safin-Ali/ts-babel-path-alias-resolver/issues"
+	},
+	"homepage": "https://github.com/Safin-Ali/ts-babel-path-alias-resolver#readme",
+	"devDependencies": {
+		"json-to-js-obj": "^1.0.4"
+	}
+}
