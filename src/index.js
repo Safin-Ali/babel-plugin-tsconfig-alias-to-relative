@@ -1,3 +1,3 @@
-const babelPl = require('./utility/path-aliases');
+const resolve_plugin = require('./utility/path-aliases');
 
-module.exports = babelPl;
+module.exports = resolve_plugin;
