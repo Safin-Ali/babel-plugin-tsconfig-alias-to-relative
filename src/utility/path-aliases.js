@@ -4,6 +4,17 @@ const { ts_alias, rootDir } = require('./tsconf-path-alias');
 
 const logger = require('./color-logger');
 
+/**
+ * Resolves TypeScript path aliases in import declarations.
+ * @function
+ * @returns {Object} - An object containing a `visitor` property
+ * @property {Object} visitor - An object with an `ImportDeclaration` property.
+ * @param {Object} path - The AST path node.
+ * @param {Object} state - The state object.
+ * @param {String} state.filename - The current filename.
+ * @throws {Error} - Throws an error if `node:path`, `tsconf-path-alias`, or `color-logger` modules are not found.
+*/
+
 module.exports = function () {
 	const result = {
 		visitor: {
@@ -46,4 +57,3 @@ module.exports = function () {
 	logger.success('tsconfig path alias resolved successfully')
 	return result;
 };
-
