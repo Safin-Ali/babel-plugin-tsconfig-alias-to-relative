@@ -19,6 +19,6 @@
 	},
 	"homepage": "https://github.com/Safin-Ali/ts-babel-path-alias-resolver#readme",
 	"devDependencies": {
-		"json-to-js-obj": "^1.0.4"
+		"json-to-js-obj": "^1.0.5"
 	}
 }
