@@ -45,13 +45,14 @@ module.exports = function () {
 					}
 
 					if (als.split('../').length <= 2) {
-						als = als.replace('../src', ".");
+						als = als.replace('../', ".");
 					} else {
-						als = als.replace('../src/', "");
+						als = als.replace(`/`,"")
+						als = als.replace('../', "");
 					}
 					path.node.source.value = als;
 				});
-			}
+			},
 		}
 	};
 	logger.success('tsconfig path alias resolved successfully')
