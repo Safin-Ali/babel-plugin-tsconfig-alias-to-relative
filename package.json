@@ -8,7 +8,7 @@
 	"readme": "README.md",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Safin-Ali/ts-babel-path-alias-resolver"
+		"url": "git+https://github.com/Safin-Ali/babel-plugin-tsconfig-alias-to-relative"
 	},
 	"scripts": {
 		"build": "babel src --out-dir dist --extensions \".js\""
@@ -17,9 +17,9 @@
 	"author": "Safin Ali <safin.ali.7205@gmail.com>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/Safin-Ali/ts-babel-path-alias-resolver/issues"
+		"url": "https://github.com/Safin-Ali/babel-plugin-tsconfig-alias-to-relative/issues"
 	},
-	"homepage": "https://github.com/Safin-Ali/ts-babel-path-alias-resolver#readme",
+	"homepage": "https://github.com/Safin-Ali/babel-plugin-tsconfig-alias-to-relative#readme",
 	"devDependencies": {
 		"@babel/cli": "^7.23.0",
 		"@babel/core": "^7.23.0",
