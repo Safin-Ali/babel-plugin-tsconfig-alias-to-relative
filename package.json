@@ -1,6 +1,6 @@
 {
 	"name": "babel-plugin-tsconfig-alias-to-relative",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "A utility to resolve tsconfig path aliases to the relative path style while babel transpile codes",
 	"main": "dist/index.js",
 	"type": "commonjs",
@@ -13,7 +13,7 @@
 	"scripts": {
 		"build": "babel src --out-dir dist --extensions \".js\""
 	},
-	"keywords": [],
+	"keywords": ["tsconfig-path-alias-resolver","ts-alias-to-relative-path","relative-alias-to-relative"],
 	"author": "Safin Ali <safin.ali.7205@gmail.com>",
 	"license": "MIT",
 	"bugs": {
